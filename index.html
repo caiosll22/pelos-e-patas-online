@@ -1,27 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pelos e Patas - Serviços para Pets</title>
-    <meta name="description" content="Serviços completos para seu pet: banho e tosa, creche, hotelzinho, pet sitter e acessórios" />
-    <meta name="author" content="Pelos e Patas" />
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pelos e Patas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 
-    <meta property="og:title" content="a13be032-22d3-44ce-9677-b7b3a2b03bb3" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-paw"></i> Pelos e Patas</div>
+        <div class="tagline">Cuidando do seu pet com amor e dedicação</div>
+    </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <nav>
+        <ul>
+            <li><a href="#banho-tosa"><i class="fas fa-shower"></i> Banho e Tosa</a></li>
+            <li><a href="#creche"><i class="fas fa-school"></i> Creche</a></li>
+            <li><a href="#hotelzinho"><i class="fas fa-hotel"></i> Hotelzinho</a></li>
+            <li><a href="#pet-sitter"><i class="fas fa-home"></i> Pet Sitter</a></li>
+        </ul>
+    </nav>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <div class="container">
+        <section id="banho-tosa">
+            <h2><i class="fas fa-shower"></i> Banho e Tosa</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/12dd22fc-1241-4abc-b329-b645037c6791.png"
+                        alt="Cachorro sendo banhado por um profissional em ambiente limpo e moderno">
+                    <div class="service-info">
+                        <h3>Banho Completo</h3>
+                        <p>Banho com produtos de alta qualidade, secagem e escovação.</p>
+                        <span class="price">R$ 80,00</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Banho Completo"
+                                data-price="80">Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8cff82a4-2a00-42a8-a7bc-d2b29d735605.png"
+                        alt="Cachorro com pelo bem cortado e tosado em estilo moderno">
+                    <div class="service-info">
+                        <h3>Tosa Higiênica</h3>
+                        <p>Tosa específica para higiene, incluindo áreas sensíveis.</p>
+                        <span class="price">R$ 100,00</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Tosa Higiênica"
+                                data-price="100">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b9119990-a81a-450a-b62f-074f7326f31f.png"
+                        alt="Gato sendo tosado por profissional especializado em pets">
+                    <div class="service-info">
+                        <h3>Banho e Tosa Felina</h3>
+                        <p>Serviço especializado para gatos, com produtos específicos.</p>
+                        <span class="price">R$ 120,00</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Banho e Tosa Felina"
+                                data-price="120">Ver detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="creche">
+            <h2><i class="fas fa-school"></i> Creche</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8aa2d183-da4f-4f6b-abb8-e5ed0ae000c0.png"
+                        alt="Cães brincando em ambiente amplo e seguro para pets">
+                    <div class="service-info">
+                        <h3>Meio Período</h3>
+                        <p>Cuido diário com atividades recreativas por até 5 horas.</p>
+                        <span class="price">R$ 50,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Creche Meio Período"
+                                data-price="50">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/30ba3f92-dc95-4c7b-9a56-ef74280fc52f.png"
+                        alt="Cães sendo supervisionados por cuidador em área ao ar livre">
+                    <div class="service-info">
+                        <h3>Período Integral</h3>
+                        <p>Cuidado completo por até 10 horas com exercícios e socialização.</p>
+                        <span class="price">R$ 80,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Creche Período Integral"
+                                data-price="80">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7f4c6d6f-4b78-463a-bfff-74d198b60ba2.png"
+                        alt="Área de repouso para cães com camas confortáveis">
+                    <div class="service-info">
+                        <h3>Pacote Semanal</h3>
+                        <p>5 dias de creche com desconto especial.</p>
+                        <span class="price">R$ 350,00/semana</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Pacote Semanal Creche"
+                                data-price="350">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hotelzinho">
+            <h2><i class="fas fa-hotel"></i> Hotelzinho</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/71a01448-872f-4a87-ab8c-b7c71e834daa.png"
+                        alt="Suíte para cães pequenos com cama confortável e brinquedos">
+                    <div class="service-info">
+                        <h3>Diária Simples</h3>
+                        <p>Acomodação confortável com alimentação básica.</p>
+                        <span class="price">R$ 70,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Hotel Diária Simples"
+                                data-price="70">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6cbe771e-1637-4012-b515-3257bade7f40.png"
+                        alt="Suíte premium para cães com TV e monitoramento 24h">
+                    <div class="service-info">
+                        <h3>Diária Premium</h3>
+                        <p>Acomodação luxuosa com cuidados personalizados.</p>
+                        <span class="price">R$ 120,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Hotel Diária Premium"
+                                data-price="120">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2a8041ca-afe5-4d7e-b0e7-85ac5d654df7.png"
+                        alt="Área de recreação para cães com brinquedos e piscina">
+                    <div class="service-info">
+                        <h3>Pacote Férias (7 dias)</h3>
+                        <p>Semana completa com banho incluso no final.</p>
+                        <span class="price">R$ 700,00/semana</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Pacote Férias Hotel"
+                                data-price="700">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pet-sitter">
+            <h2><i class="fas fa-home"></i> Pet Sitter</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5f26edc2-4601-4258-8e6b-8398bddcebe3.png"
+                        alt="Cuidadora brincando com cão em ambiente residencial">
+                    <div class="service-info">
+                        <h3>Visita Diária</h3>
+                        <p>Visita de 1 hora para alimentação e cuidados básicos.</p>
+                        <span class="price">R$ 60,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Pet Sitter Visita Diária"
+                                data-price="60">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/81276d14-d9eb-4063-81b4-8be108a8a4f8.png"
+                        alt="Cuidador passeando com cachorro em parque arborizado">
+                    <div class="service-info">
+                        <h3>Hospedagem em Casa</h3>
+                        <p>Seu pet fica na casa do cuidador com cuidados 24h.</p>
+                        <span class="price">R$ 100,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details"
+                                data-service="Pet Sitter Hospedagem em Casa" data-price="100">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e9bc60f1-d4c2-4b69-9e89-c674324dd5ab.png"
+                        alt="Cuidadora dando remédio para gato em ambiente doméstico">
+                    <div class="service-info">
+                        <h3>Serviço Personalizado</h3>
+                        <p>Cuidados específicos para pets com necessidades especiais.</p>
+                        <span class="price">R$ 200,00/dia</span>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-view-details" data-service="Pet Sitter Personalizado"
+                                data-price="200">Ver detalhes
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="service-highlight">
+            <div class="highlight-content">
+                <span class="close-btn">&times;</span>
+                <h3 id="service-title">Detalhes do Serviço</h3>
+                <div id="service-description">
+                    <!-- Conteúdo será preenchido pelo JavaScript -->
+                </div>
+                <a class="btn btn-primary" id="btn-book-service"
+                    href="https://wa.me/5554999128179?text=ol%C3%A1%20somos%20a%20pelos%20e%20patas%20seja%20bem%20vindo%20como%20podemos%20ajudar"
+                    target="_blank" rel="noopener noreferrer">Clique aqui</a>
+            </div>
+        </div>
+
+        <!-- Modal de agendamento -->
+        <div class="booking-modal">
+            <div class="booking-content">
+                <span class="close-btn">&times;</span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h2>Pelos e Patas</h2>
+                    <p>Seu pet com o cuidado que merece.</p>
+                </div>
+
+                <div class="footer-social">
+                    <p>Nos acompanhe:</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><img src="facebook.svg" alt="Facebook" /></a>
+                        <a href="#" aria-label="Instagram"><img src="instagram.svg" alt="Instagram" /></a>
+                        <a href="#" aria-label="WhatsApp"><img src="whatsapp.svg" alt="WhatsApp" /></a>
+                    </div>
+                </div>
+
+                <div class="footer-dev">
+                    <p>Desenvolvido por Caio Sales</p>
+                    <p>&copy; 2025 Pelos e Patas. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <script src="./script.js"></script>
+</body>
+
 </html>
